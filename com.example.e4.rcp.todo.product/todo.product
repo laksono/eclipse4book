@@ -88,15 +88,13 @@
       <feature id="org.eclipse.emf.common"/>
       <feature id="org.eclipse.equinox.p2.core.feature"/>
       <feature id="org.eclipse.ecf.core.feature"/>
-      <feature id="org.eclipse.ecf.filetransfer.httpclient4.feature"/>
       <feature id="org.eclipse.ecf.core.ssl.feature"/>
-      <feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature"/>
       <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
       <feature id="org.eclipse.ecf.filetransfer.feature"/>
-      <feature id="h2" version="1.4.197"/>
-      <feature id="retrofit" version="2.1.0"/>
-      <feature id="org.eclipse.nebula.widgets.pshelf.feature" version="1.0.0.201804281520"/>
-      <feature id="org.eclipse.nebula.widgets.pshelf.css.feature" version="1.0.0.201804281520"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclient45.feature" installMode="root"/>
+      <feature id="org.eclipse.nebula.widgets.pshelf.feature" installMode="root"/>
+      <feature id="org.eclipse.nebula.widgets.pshelf.css.feature" installMode="root"/>
+      <feature id="org.eclipse.nebula.widgets.opal.commons.feature" installMode="root"/>
    </features>
 
    <configurations>
